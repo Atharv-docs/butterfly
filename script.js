@@ -10,7 +10,7 @@ function drawButterfly() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     ctx.translate(canvas.width / 2, canvas.height / 2);  // Center the butterfly
-    ctx.scale(50, 50);  // Scale for better visibility
+    ctx.scale(50, -50);  // Scale for better visibility and flip upside down
 
     ctx.beginPath();
     ctx.lineWidth = 0.03;
